@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    /* border: 1px solid red; */
+    padding: 1em 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid red; */
+    padding: 1em;
+}
